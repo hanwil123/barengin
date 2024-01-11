@@ -1,22 +1,3 @@
-# Form with Validation using Next.js and Tailwind CSS
-
-![GitHub Repo](https://img.shields.io/github/stars/incoderweb/form-with-validation.svg?style=flat&label=Stars)
-![GitHub License](https://img.shields.io/github/license/incoderweb/form-with-validation.svg?style=flat&label=License)
-
----
-
-A powerful and customizable form handling template built with Next.js and styled with Tailwind CSS. This repository provides a solid foundation for creating interactive forms with robust client-side validation.
-
-## Features:
-
-- **Next.js Framework:** Leverage the benefits of server-side rendering and routing in Next.js for a seamless and efficient web application.
-- **Tailwind CSS Integration:** Easily customize the appearance and style of your forms with the popular utility-first CSS framework, Tailwind CSS.
-- **Form Validation:** Implement comprehensive client-side validation to ensure data integrity and a smooth user experience.
-- **Input Types:** Support for various input types such as text, email, password, and more, with corresponding validation rules.
-- **Error Handling:** Gracefully display error messages and visual cues for users when input doesn't meet validation criteria.
-- **Submit Handling:** Manage form submission events with ease, allowing you to process data or perform actions as needed.
-- **Reusable Components:** Organize your form components for modularity and reusability across different parts of your application.
-
 ## Quick Start:
 
 1. Clone the repository:
