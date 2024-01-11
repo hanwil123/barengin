@@ -1,9 +1,9 @@
-package controllers
+package Controllers
 
 import (
 	"github.com/gin-gonic/gin"
 	"golang.org/x/crypto/bcrypt"
-	databases "main.go/Databases"
+	"main.go/Databases"
 	"main.go/Models"
 	"math/rand"
 	"net/http"
@@ -25,7 +25,7 @@ func RegisterUser(c *gin.Context) {
 		Password: password,
 		Name:     data["name"],
 	}
-	result := databases.UDB.Create(&user)
+	result := Databases.UDB.Create(&user)
 	if result.Error != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": result.Error.Error()})
 		return
