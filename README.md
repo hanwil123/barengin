@@ -4,6 +4,6 @@
 
 ## Screenshots
 
-![screencapture-localhost-3000-signin-2024-01-12-23_46_37](https://github.com/hanwil123/barengin/assets/108178252/05b52b0d-c85d-491a-8589-280a8c4778ca)
+![screencapture-localhost-3000-signup-2024-01-12-23_52_17](https://github.com/hanwil123/barengin/assets/108178252/6ebc4243-ca94-4cfe-b901-ff5903b73c9b)
+![screencapture-localhost-3000-signin-2024-01-12-23_52_08](https://github.com/hanwil123/barengin/assets/108178252/1cd84704-193a-486b-a398-0b71e38fb3bb)
 
-![screencapture-localhost-3000-signup-2024-01-12-23_46_30](https://github.com/hanwil123/barengin/assets/108178252/97342ee2-dfcc-44da-b2fc-b8195d886b8d)
