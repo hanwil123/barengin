@@ -13,7 +13,7 @@ import {
     FormMessage,
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
-import { FaFacebook, FaGithub, FaGoogle } from "react-icons/fa6";
+import { FaFacebook, FaGoogle } from "react-icons/fa6";
 import Link from 'next/link'
 
 const signInSchema = z.object({
@@ -49,7 +49,6 @@ const Page = () => {
                     <div className="socialSignUpOptions">
                         <Button variant={"outline"} className='socialFormBtn'><FaGoogle className="h-5 w-5"/></Button>
                         <Button variant={"outline"} className='socialFormBtn'><FaFacebook className="h-5 w-5"/></Button>
-                        <Button variant={"outline"} className='socialFormBtn'><FaGithub className="h-5 w-5"/></Button>
                     </div>
                     <p className='text-center'>or use this option</p>
                     <Form {...form}>
