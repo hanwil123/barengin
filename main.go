@@ -37,6 +37,24 @@ func main() {
 		Controllers.LoginUser(c, authClient)
 		c.JSON(http.StatusOK, gin.H{"message": "User registered successfully"})
 	})
+	r.POST("/product", func(c *gin.Context) {
+		Controllers.AddProduct(c, app)
+		c.JSON(http.StatusOK, gin.H{"message": "User registered successfully"})
+	})
+	r.POST("/product/update", func(c *gin.Context) {
+		productID := c.Query("productID")
+
+		// Call UpdateProduct with the necessary arguments
+		Controllers.UpdateProduct(c, app, productID) // Pass productID as an argument
+		c.JSON(http.StatusOK, gin.H{"message": "User registered successfully"})
+	})
+	r.DELETE("/product", func(c *gin.Context) {
+		productID := c.Query("productID")
+
+		// Call UpdateProduct with the necessary arguments
+		Controllers.DeleteProduct(c, app, productID) // Pass productID as an argument
+		c.JSON(http.StatusOK, gin.H{"message": "User registered successfully"})
+	})
 
 	// Run the server
 	r.Run(":8080")
